@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="64dp" >
+        <TextView
+            style="@style/DayLayout"
+            android:text="Day 1"
+            android:textAlignment="center"
+            android:background="#991111"
+            android:id="@+id/day"
+            android:padding="16dp"/>
+    <TextView
+        android:layout_height="10dp"
+        android:layout_width="match_parent"
+        android:text=""
+        android:id="@+id/day_bar"
+        android:textAlignment="center"
+        android:background="#660000"
+        android:padding="1px"/>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff">
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="@string/breads"
+                    style="@style/DoughText"/>
+                <TextView
+                    style="@style/DoughText"
+                    android:text="@string/small"/>
+                <TextView
+                    style="@style/DoughText"
+                    android:text="@string/medium" />
+                <TextView
+                    style="@style/DoughText"
+                    android:text="@string/large"/>
+                <TextView
+                    style="@style/DoughText"
+                    android:text="@string/extra_large"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <EditText
+                    style="@style/EditDoughText"
+                    android:id="@+id/day_bread" />
+                <EditText
+                    style="@style/EditDoughText"
+                    android:id="@+id/day_small"/>
+                <EditText
+                    style="@style/EditDoughText"
+                    android:id="@+id/day_medium"/>
+                <EditText
+                    style="@style/EditDoughText"
+                    android:id="@+id/day_large"/>
+                <EditText
+                    style="@style/EditDoughText"
+                    android:id="@+id/day_extra_large"/>
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

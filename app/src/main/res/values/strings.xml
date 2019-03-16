@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dough Projection Calculator</string>
+
+    <!-->Bread Dough<-->
+    <string name="breads">Breads: </string>
+    <!-->Small Dough<-->
+    <string name="small">Smalls: </string>
+    <!-->Medium Dough<-->
+    <string name="medium">Mediums: </string>
+    <!-->Large Dough<-->
+    <string name="large">Larges: </string>
+    <!-->Extra Large Dough<-->
+    <string name="extra_large">Extra Larges: </string>
+</resources>
